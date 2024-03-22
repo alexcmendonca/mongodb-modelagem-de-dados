@@ -1,7 +1,7 @@
 # MongoDB: Validando dados
 
 ## 💡Objetivos
-O objetivo deste repositório é fornecer recursos e orientações sobre o uso eficaz do MongoDB, um banco de dados NoSQL amplamente utilizado na indústria de desenvolvimento de software. Atividades exploradas sobre: 
+O objetivo deste repositório é fornecer recursos e orientações sobre o uso eficaz do MongoDB, um banco de dados NoSQL amplamente utilizado na indústria de desenvolvimento de software. Atividades exploradas:
 
 * Transações ACID no MongoDB: Explorando transações ACID (Atomicidade, Consistência, Isolamento e Durabilidade) para garantir a integridade dos seus dados.
 
