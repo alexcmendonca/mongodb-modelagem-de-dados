@@ -60,7 +60,7 @@ Com objetivo de não apenas garantir a consistência dos dados, mas também torn
 14. script-14-modelagem-referencia-estendida.js: Explora a modelagem de referência estendida no MongoDB, discutindo estratégias para estender referências entre documentos para suportar casos de uso mais complexos.
 
 ###### Imagem 3: Estrutura para armazenar dados hierárquicos no padrão de árvore
-<img src="/img/estrutura-arvore-bd.png">
+<img src="/img/estrutura-arvore-bd.jpeg">
 
 ###### Imagem 4: Ferramenta NoSQLBooster
 <img src="/img/nosqlbooster.png">
