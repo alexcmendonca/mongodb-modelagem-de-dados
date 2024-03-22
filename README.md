@@ -3,15 +3,15 @@
 ## 💡Objetivos
 O objetivo deste repositório é fornecer recursos e orientações sobre o uso eficaz do MongoDB, um banco de dados NoSQL amplamente utilizado na indústria de desenvolvimento de software. Atividades exploradas sobre: 
 
-    Transações ACID no MongoDB: Explorando transações ACID (Atomicidade, Consistência, Isolamento e Durabilidade) para garantir a integridade dos seus dados.
+* Transações ACID no MongoDB: Explorando transações ACID (Atomicidade, Consistência, Isolamento e Durabilidade) para garantir a integridade dos seus dados.
 
-    Estruturas de Dados: Trabalhando com diferentes estruturas de dados suportadas pelo MongoDB e utilizando efetivamente para armazenar e recuperar informações.
+* Estruturas de Dados: Trabalhando com diferentes estruturas de dados suportadas pelo MongoDB e utilizando efetivamente para armazenar e recuperar informações.
 
-    Relacionamentos no MongoDB: O MongoDB trabalha com relacionamentos entre documentos e modelando esses relacionamentos para atender às necessidades do seu projeto.
+* Relacionamentos no MongoDB: O MongoDB trabalha com relacionamentos entre documentos e modelando esses relacionamentos para atender às necessidades do seu projeto.
 
-    Estrutura de Árvore: Aprofundando na estrutura de árvore e implementando usando as capacidades flexíveis do MongoDB.
+* Estrutura de Árvore: Aprofundando na estrutura de árvore e implementando usando as capacidades flexíveis do MongoDB.
 
-    Utilização de Modelos Existentes: Aproveite os modelos de dados existentes para acelerar o desenvolvimento de novos projetos, adaptando-os conforme necessário para atender aos requisitos específicos do seu aplicativo.
+* Utilização de Modelos Existentes: Aproveite os modelos de dados existentes para acelerar o desenvolvimento de novos projetos, adaptando-os conforme necessário para atender aos requisitos específicos do seu aplicativo.
 
 ###### Imagem 1: MongoDB é um banco de dados NoSQL baseado em documentos
 <img src="/img/mongodb.png">
