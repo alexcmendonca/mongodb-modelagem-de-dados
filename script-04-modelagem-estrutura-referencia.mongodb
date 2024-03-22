@@ -1,0 +1,44 @@
+// acessando banco de dados existente
+use('modelagem02')
+
+// criando coleção "clientes"
+original_id = ObjectId()
+
+// inserindo documento na coleção "clientes" utilizando 'original_id' como referência para o '_id'
+db.clientes.insertOne({
+    "_id": original_id,
+    "Nome": "Manoel Carlos Eduardo Kauê Costa", 
+    "CPF": "369.584.289-00", 
+    "Data_Nascimento": "23/04/1972",  
+    "Genero": "Masculino", 
+    "Profissao": "Supervisor administrativo", 
+    "Status_Civil": "Separado(a)"})
+
+// inserindo documento na coleção "contas" trabalhando com referência
+db.contas.insertOne({
+    "_id": ObjectId(),
+    "id_clientes":original_id,     
+    "Numero_Conta": "48948530-6", 
+    "Agência": "5575", 
+    "Tipo": "Conta corrente", 
+    "CPF": "369.584.289-00", 
+    "Valor": 6.874})
+
+    // inserindo documento na coleção "endereco" trabalhando com referência
+    db.endereco.insertOne({
+        "_id": ObjectId(),
+        "id_clientes":original_id, 
+        "Rua": "Santa Justina Sartori", 
+        "Numero": 945,
+        "Bairro":"Jardim Porto Alegre", 
+        "Cidade":"Toledo", 
+        "Estado":"PR", 
+        "CEP":"85906-310"})
+
+// buscando todos os registros presentes na coleção "clientes" para avaliar estrutura dos dados armazenados
+use('modelagem02')
+db.clientes.find({})
+
+// buscando todos os registros presentes na coleção "contas"
+use('modelagem02')
+db.contas.find({})

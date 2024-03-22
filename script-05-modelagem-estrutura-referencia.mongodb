@@ -1,0 +1,72 @@
+// criando banco de dados
+use('livraria')
+
+// criando coleção 'Livros' trabalhando com referência manual
+db.createCollection("livros",   { 
+    validator:  {
+        $jsonSchema:   {
+         bsonType: "object",
+              required:[ "ID", "id_editora", "id_autor", "Título","Páginas","Gênero","Preço"],
+              properties:  {
+                ID:
+                    {bsonType: "int"},
+                id_editora:
+                    {bsonType: "int"}, 
+                id_autor:
+                    {bsonType: "int"}, 
+                Título:
+                    {bsonType: "string"},
+                Páginas:
+                    {bsonType: "string"},
+                Gênero:
+                    {bsonType: "string"},
+                Preço:
+                    {bsonType: "double"}
+              }
+        }  
+    }          
+})
+
+use('livraria')
+
+// criando coleção 'editora'
+db.createCollection("editora",  { 
+    validator:   {
+        $jsonSchema:     {
+         bsonType: "object",
+              required:[ "ID", "Nome","Telefone"],
+              properties:  {
+                ID:
+                    {bsonType: "int"},
+                Nome:
+                    {bsonType: "string"},
+                Telefone:
+                    {bsonType: "string"}
+              }
+        }  
+    }          
+})
+
+use('livraria')
+
+// criando coleção 'autor'
+db.createCollection("autor",  { 
+    validator:  {
+        $jsonSchema:     {
+         bsonType: "object",
+              required:[ "ID", "Nome","Data_Nascimento","Email","Telefone"],
+              properties:   {
+                ID:
+                    {bsonType: "int"},
+                Nome:
+                    {bsonType: "string"},
+                Data_Nascimento:
+                    {bsonType: "string"},
+                Email:
+                    {bsonType: "string"},
+                Telefone:
+                    {bsonType: "string"}
+              }
+        }  
+    }          
+})
